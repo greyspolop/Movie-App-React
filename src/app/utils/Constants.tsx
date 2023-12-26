@@ -4,7 +4,7 @@ export const MESSAGE_ERROR="Error al obtener las películas";
 
 export const IMAGE_NOFOUND_URL="https://img.freepik.com/vector-premium/vector-icono-imagen-predeterminado-pagina-imagen-faltante-diseno-sitio-web-o-aplicacion-movil-no-hay-foto-disponible_87543-11093.jpg?w=740";
 
-export const POPULAR_IMG_URL="https://cdn-user-icons.flaticon.com/40608/40608996/1703223534418.svg?token=exp=1703224449~hmac=6f237f1e1bec3931a5ed417bc342f144";
+export const POPULAR_IMG_URL="https://cdn-user-icons.flaticon.com/40608/40608996/1703611518411.svg?token=exp=1703612424~hmac=ebd994ab00304d45fe45a26dc0ac038b";
 
 export const URL_ICON="https://cdn-user-icons.flaticon.com/40608/40608996/1703223534418.svg?token=exp=1703224449~hmac=6f237f1e1bec3931a5ed417bc342f144"
 
