@@ -1,0 +1,3 @@
+export const URL_ICON_SHARE='https://cdn-user-icons.flaticon.com/40608/40608996/1703257958868.svg?token=exp=1703258859~hmac=caf8d7d972c757c7a3f677dfb45a7422';
+export const URL_ICON_FAVORITE ='https://cdn-user-icons.flaticon.com/40608/40608996/1703258019740.svg?token=exp=1703258928~hmac=536656da687e774217b5c9f493b5e0f4';
+export const URL_ICON_SAVED ='https://cdn-user-icons.flaticon.com/40608/40608996/1703258077984.svg?token=exp=1703258978~hmac=f6327bbbf30a3ee5e93ebd44a96118be';

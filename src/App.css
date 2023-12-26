@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body {
+  color: rgb(var(--foreground-rgb));
+  background: black;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+h1 {
+  margin: 10px;
+  color: white;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+.slick-prev:before {
+  content: url("./app/assets/Images/flecha.png") !important; /* URL de tu icono para la flecha derecha */
+  height: 40px; /* Ajusta la altura de tu icono */
+  width: 40px; /* Ajusta el ancho de tu icono */
+}
+
+.slick-next:before {
+  content: url("./app/assets/Images/flechaAfther.png") !important; /* URL de tu icono para la flecha izquierda */
+  width: 40px !important; /* Ajusta el ancho de tu icono */
+  height: 40px; /* Ajusta la altura de tu icono */
+}
+
+p {
+  margin: 10px 14px;
+  color: white;
+}
+.textSearch {
+  display: flex;
+  justify-content: center;
+  margin-top: 92px;
+  font-size: 20px;
+  margin-bottom: 34px;
+  color: #fd6d6d;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  column-count: 4;
+  column-gap: 2em;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.contenedor {
+  display: flex;
+
+  flex-direction: column;
+}
+li {
+  list-style-type: none;
+  margin-bottom: 20px; /* Espacio entre elementos */
+}
+
+span {
+  margin: 20px;
+}
+
