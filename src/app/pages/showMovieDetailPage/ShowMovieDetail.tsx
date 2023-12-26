@@ -78,7 +78,7 @@ const ShowMovieDetail=() =>{
         <PosterTexts>
           <TextTitle>{movieDetails?.title}</TextTitle>
           <TextSubTitle>{movieDetails?.tagline}</TextSubTitle>
-          <ImageIconStar src={`${URL_ICON}`} ></ImageIconStar>
+          <ImageIconStar src={`${POPULAR_IMG_URL}`} ></ImageIconStar>
         </PosterTexts>
 
         <ImageDetails alt='' src={`${ENDPOINT_URL_IMAGES}${movieDetails.backdrop_path}`} ></ImageDetails>
