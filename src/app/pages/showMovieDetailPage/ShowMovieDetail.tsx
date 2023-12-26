@@ -4,7 +4,7 @@ import { useParams } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 import { AlingContentFavorite, ButtonStyle, Container, Containertext, Descriptiontext, IconText, ImageDetails, ImageIcon, ImageIconStar, ImagePoster, ImgAndText, OrderTxtTypeMovie, PosterContent, PosterTexts, TextSubTitle, TextTitle, TxtTypeMovie } from './ShowMovieDetailStyle';
 import { API_SEARCH, ENDPOINT_URL_IMAGES } from '../../../app/enviroments/EndoPoints';
-import { API_KEY, URL_ICON, URL_ICON_LOVE } from '../../utils/Constants';
+import { API_KEY, URL_ICON, URL_ICON_LOVE,POPULAR_IMG_URL } from '../../utils/Constants';
 import { Provider } from 'react-redux';
 import configureStore from '../../../app/GlobalRedux/stores/ConfigureStore';
 import { addMovie} from '../../../app/GlobalRedux/actionss/actions';
